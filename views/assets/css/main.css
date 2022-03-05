@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gelasio', serif;
+	width: 100%;
+    overflow-x: hidden;
+}
+.page_error{
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2.3em;
+    text-shadow: 3px 3px 3px #FFFFFF;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ui.menu{
+    border-bottom: 3px solid #2185D0;
+}
+.ui.menu .header{
+    font-weight: none;
+    color: #2185D0;
+}
+
+.btn{
+    margin-top: 22px;
+}
+.form-wrap{
+    width: 600px;
+    margin: 70px auto;
+}
+.s-st{
+    width: 200px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.s-st > p{
+    padding: 12px;
+    font-size: 15px;
+    color: #2185D0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.s-st .button{
+    margin-bottom: 10px;
+}
+table td .icon:before{
+    margin-right: -8px;
+}
+
+.ad-leaderboard{
+    border: 1px solid black;
+    width: 729px;
+    height: 90px;
+    margin: 10px auto;
+}
+.ad{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ad-normal{
+    border: 1px solid black;
+    width: 468px;
+    height: 60px;
+    margin: 10px auto;
+
+}
+.ad-square{
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin: 10px auto;
+}
+
+footer{
+    margin: 30px auto;
+    text-align: center;
+}
